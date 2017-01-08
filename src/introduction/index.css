@@ -1,0 +1,50 @@
+.introduction {
+  height: 600px;
+  position: relative;
+}
+
+.introduction .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+.introduction .mash {
+  position: absolute;
+  background-color: #000000;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  overflow: hidden;
+  text-align: center;
+  padding: 0em;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.45;
+  margin-bottom: 0px;
+  border-bottom: none;
+  background-position: 50% 50%;
+  transform: translate3d(0, 0, 0);
+  transition: background 6s cubic-bezier(0.680, -0.550, 0.265, 1.4) 0s, opacity 6s cubic-bezier(0.680, -0.550, 0.265, 1.4) 0s;
+}
+
+.introduction .content {
+  position: relative;
+  top: 200px;
+  left: 0;
+  z-index: 100;
+  color: white;
+}
+
+.introduction .content .title {
+  font-size: 60px;
+}
+
+.introduction .content .subtitle {
+  width: 600px;
+  margin: 0 auto;
+}

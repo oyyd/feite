@@ -1,0 +1,26 @@
+.header-menu {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.header-menu .ui.menu {
+  background: transparent;
+}
+
+.header-menu .ui.menu .item {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.header-menu .ui.menu .item:hover {
+  color: white;
+}
+
+.header-menu .ui.menu .item.active {
+  color: white;
+}
+
+.header-menu .ui.menu .item.active:hover {
+  color: white;
+}
